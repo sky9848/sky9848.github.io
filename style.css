@@ -1,0 +1,907 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+.pussy{
+   display: flex;
+   justify-content: space-between;
+   /* background-color: rgb(57, 57, 57); */
+   height: 80px;
+   align-items: center;
+
+    
+}
+
+
+.logo{
+    width: 294px;  
+    font-size: 40px;
+    margin-left: 53px;
+    
+
+
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    transition: 0.4s;
+   
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold; 
+    color: #fff;
+   
+}
+
+
+
+.logo a:hover::after{
+   width: 100%;
+   
+}
+
+.logo a span{
+    color: white;
+
+}
+
+nav{
+    margin-right: 93px;
+}
+
+
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+   position: relative;
+   transition: 0.3s;
+    
+}
+
+nav ul li a:hover{
+    color: crimson;
+   text-decoration: none;
+   font-size: 20px;
+   position: relative;
+   
+
+    
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: crimson;   
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.6s;
+    
+    
+    
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+    
+}
+
+
+main{
+
+width: 98.9vw;
+height: 100vh;
+background-image: url(profile\ pp\ 3.jpg);
+background-position-x: right;
+background-repeat: no-repeat;
+min-height: 500px;    
+display: flex;
+
+}
+
+.lallu{
+ margin-left: 10vw;
+ margin-top: 13vw;
+ 
+}
+
+.hello{
+   font-size: 27px;
+}
+
+.name{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.intro{
+    font-size: 40px;
+}
+
+.intro span{
+    color: crimson;
+}
+
+.but{
+    margin-top: 9px;
+    
+
+}
+
+.but button{
+    font-size: 35px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(167, 15, 45);
+    border-radius: 6px;
+    transition: 0.4s;
+    
+}
+
+.but button:hover{
+    font-size: 35px;
+    color: crimson;
+    background-color: black;
+    cursor: pointer;
+    border: crimson solid 2px; 
+    border-radius: 6px;
+    
+
+}
+
+
+/* about */
+
+.about{
+    width: 98.9vw;
+    height: 53vw;
+    
+    
+}
+
+.headofabout{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.headofabout h1{
+    margin-top: 85px;
+    font-size: 63px;
+    position: relative;
+}
+
+.headofabout h1::before{
+    content:"";
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    height: 3px;
+    background-color: black;
+    bottom: -22px;
+    transform: translate(-50%);
+    
+}
+
+.headofabout h1::after{
+    content:"who i am";
+    position: absolute;
+    font-size: 23px;
+    left: 50%;
+    padding: 5px;
+    background-color: white;
+    color: crimson;
+    bottom: -35px;
+    transform: translate(-50%);
+    
+}
+
+.merophoto img{
+    width: 23vw;    
+    margin-top: 100px;
+    margin-left: 9vw;
+    height: 29vw;   
+}
+
+.aboutmain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    margin-top: 8vw;
+    width: 54vw;
+    margin-right: 6vw;
+    height: 29vw;
+    
+    
+}
+
+.text h1{
+    margin-top: 12px;
+    font-size: 36px;
+
+}
+
+.text h1 span{
+  color: crimson;
+}
+
+.text p{
+    margin-top: 23px;
+    font-size: 20px;
+    width: 57vw;
+    text-align: justify;
+
+
+
+}
+
+.daab button{
+    margin-top: 25px;
+    border: none;
+    font-size: 25px;
+}
+
+.daab button a{
+   text-decoration: none;
+   background-color: crimson;
+   color: white;
+   padding: 7px;
+   border-radius: 6px;
+   border: 2px solid crimson;
+   transition: 0.3s;
+
+}
+
+.daab button a:hover{
+    color: crimson;
+    border-color: crimson;
+    background-color: white;
+
+}
+
+/* service section */
+
+.service{
+    width: 98.9vw;
+    height: 53vw;
+    color: white;
+    background-color: black;
+}
+
+.tauko{
+    display: flex;
+    justify-content: center;
+       
+}
+
+.tauko h1{
+    margin-top: 100px;
+    font-size: 54px;
+    position: relative;
+
+}
+
+.tauko h1::before{
+
+    content:"";
+    position: absolute;
+    width: 270px;
+    left: 50%;
+    height: 3px;
+    background-color: white;
+    bottom: -22px;
+    transform: translate(-50%);
+}
+
+.tauko h1::after{
+    content:"what i provide";
+    position: absolute;
+    font-size: 25px;
+    width: 170px;
+    left: 50%;
+    padding: 5px;
+    background-color: black;
+    color: crimson;
+    bottom: -35px;
+    transform: translate(-50%);
+    
+
+
+}
+
+.boxsegment{
+    margin-top: 154px;
+    margin-left: 140px;
+    margin-right: 80px;
+    font-size: 23px;
+    display: flex;
+    height: 24vw;
+    cursor: pointer;
+    
+
+}
+
+
+
+#box1{
+    width: 33vw;
+    background-color: rgb(41, 40, 40);
+    border-radius: 4px;
+    padding: 0 25px;
+    margin-right: 93px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#box1:hover{
+    background-color:  rgb(211, 179, 0);
+    color: white;
+    transform: scale(1.05);
+
+}
+
+#box1 i{
+    font-size: 71px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    padding-top: 29px;
+}
+
+
+#box1 p{
+   margin-top: 15px;
+   text-align: center; 
+}
+
+.vv{
+    color: white;
+    margin-top: 45px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 38px;
+    
+}
+
+#box2{
+    width: 33vw;
+    background-color: rgb(41, 40, 40);
+    margin-right: 85px;
+    border-radius: 4px;
+    padding: 0 25px;
+    transition: 0.4s;
+}
+
+#box2:hover{
+    background-color:  rgb(211, 179, 0);
+    color: white;
+    transform: scale(1.05);
+
+}
+
+#box2 i{
+    font-size: 71px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    padding-top: 29px;
+}
+
+#box2 p{
+    margin-top: 15px;
+    text-align: center; 
+}
+
+#box3{
+    width: 33vw;
+    border-radius: 4px;
+    padding: 0 25px;
+    background-color: rgb(41, 40, 40);
+    margin-left: 9px;
+    transition: 0.4s;
+ 
+}
+
+#box3:hover{
+    background-color: rgb(211, 179, 0);
+    color: white;
+    transform: scale(1.05);
+
+}
+
+#box3 i{
+    font-size: 71px;
+    padding-top: 29px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#box3 p{
+    margin-top: 15px;
+    text-align: center; 
+
+}
+
+
+/* skill style */
+
+.last{
+    width: 98.9vw;
+    height: 53vw;
+    
+}
+
+.last .head{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.last .head p{
+    margin-top: 74px;
+    font-size: 63px;
+    font-weight: 600;
+    position: relative;
+}
+
+.last .head p::before{
+    content:"";
+    position: absolute;
+    width: 230px;
+    left: 50%;
+    height: 3px;
+    background-color: black;
+    bottom: -22px;
+    transform: translate(-50%);
+}
+
+.last .head p::after{
+    content:"what i know";
+    position: absolute;
+    font-size: 25px;
+    width: 142px;
+    left: 50%;
+    padding: 5px;
+    background-color: white;
+    color: crimson;
+    bottom: -35px;
+    transform: translate(-50%);
+}
+
+.jhanda{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 93px;
+    
+}
+
+.jhanda .gra{
+    /* background-color: red; */
+    /* color: white; */
+    width: 35vw;
+    height: 25vw;
+    margin-left: 13vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+
+.jhanda .gra a button{
+color: white;
+margin-top: 25px;
+background-color: crimson;
+transition: 0.4s;
+border-color: crimson;
+font-size: 22px;
+border-radius: 5px;
+padding: 7px;
+}
+
+.jhanda .gra a button:hover{
+    font-size: 22px;
+    color: crimson;
+    background-color: white;
+    cursor: pointer;
+    border: crimson solid 2px; 
+    border-radius: 5px;
+    
+}
+
+.jhanda .gra h1{
+
+    font-size: 33px;
+    }
+
+.jhanda .gra p{
+margin-top: 10px;
+font-size: 18px;
+}
+
+.jhanda .gar{
+
+    /* background-color: red; */
+    /* color: white; */
+    width: 35vw;
+    height: 25vw;
+    margin-right: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 33px;
+    
+}
+
+.hala{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jhanda .gar .bar{
+    width: 35vw;
+    margin-top: 10px;
+    height: 4px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.jhanda .gar .bar::before{
+    content: "";
+    position: absolute;
+    width: 357px;
+    left: 33%;
+    height: 4px;
+    background-color: red;
+    bottom: 0px;
+    transform: translate(-50%);
+}
+.jhanda .gar .bar::after{
+    content:"";
+    position: absolute;
+    font-size: 25px;
+    width: 142px;
+    left: 50%;
+    padding: 5px;
+    background-color: white;
+    color: crimson;
+    bottom: -35px;
+    transform: translate(-50%);
+
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+footer span{
+    color: crimson;
+}
+
+
+/* contact */
+
+.contact{
+    width: 98.9vw;
+    height: 57vw;
+    background-color: black;
+    color: white;
+}
+
+.contact .head{
+
+    display: flex;
+    justify-content: center;
+    
+    
+}  
+
+.contact .head h1{
+    margin-top: 39px;
+font-size: 53px;
+position: relative;
+
+}
+
+
+.contact .head h1::before{
+    content:"";
+    position: absolute;
+    width: 255px;
+    left: 50%;
+    height: 3px;
+    background-color: white;
+    bottom: -22px;
+    transform: translate(-50%);
+}
+
+.contact .head h1::after{
+    content:"get in touch";
+    position: absolute;
+    font-size: 25px;
+    width: 142px;
+    left: 50%;
+    padding: 5px;
+    background-color: black;
+    color: crimson;
+    bottom: -35px;
+    transform: translate(-50%);
+}
+
+.lame{
+    margin-top: 104px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lame1{
+/* background-color: red; */
+width: 35vw;
+height: 25vw;
+margin-left: 8vw;
+display: flex;
+flex-direction: column;
+margin-top: 5px;
+
+}
+
+
+.lame2{
+
+width: 35vw;
+height: 36vw;
+margin-right: 10vw;
+margin-bottom: 33px;
+border-left: 2px solid crimson;
+}
+
+.lame1 h1{
+    margin-left: 9px;
+}
+
+.lame1 p{
+    margin-top: 18px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.back .bak{
+    display: flex;
+    flex-direction: column;
+    /* background-color: gray; */
+    color: crimson;
+    
+}
+
+.lame1 .back{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 38px;
+
+    
+}
+
+.lame1 .bak2{
+    /* background-color: gray; */
+    font-size: 22px;
+    width: 29vw;
+    height: 17vw;
+
+}
+
+.lame1 .bak2 .locationsection{
+    /* background-color: green; */
+    width: 323px;
+
+    
+}
+
+#nnn{
+    margin-bottom: 33px;
+    font-size: 42px;
+}
+
+.namesection{
+    margin-right: 388px;
+}
+
+#ooo{
+    margin-bottom: 33px;
+    font-size: 42px;
+}
+
+#ppp{
+    font-size: 42px;
+    margin-top: 9px;
+}
+
+.emailsection{
+    
+    margin-top: 29px;
+}
+
+
+.eee h1{
+margin-left: 57px;
+margin-top: 15px;
+}
+
+.boxasegment{
+    margin-left: 59px;
+
+    margin-top: 38px;
+    
+}
+
+.boxasegment form{
+    font-size: 32px;
+}
+
+.nameforform input{
+    font-size: 22px;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.emailforform input{
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 20px;
+    width: 25vw;
+}
+
+.subject input{
+    font-size: 22px;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.describe input{
+    font-size: 22px;
+    margin-top: 20px;
+    width: 25vw;
+  
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.describe input placeholder{
+    margin-top: 22px;
+}
+.sendmessage a  button{
+    padding: 9px;
+    margin-top: 44px;
+    background-color: crimson;
+    color: white;
+    border-radius: 4px;
+    font-size: 22px;
+    transition: 0.4s;
+    border: 2px solid  crimson;
+   
+}
+
+.sendmessage a button:hover{
+    font-size: 22px;
+    color: crimson;
+    background-color: black;
+    cursor: pointer;
+    border: crimson solid 2px; 
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* responsive section */
+
+/* @media (max-width: 1050px){
+
+    .about{
+          height: 158vw;
+    }
+    .aboutmain{
+        display: flex;
+        flex-direction: column;
+        margin-left: 22vw;
+        
+    }
+
+}
+
+@media (max-width: 1120px){
+      
+    main{
+        width: 100vw;
+    }
+    .lallu{
+        margin-top: 63vw;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav{
+        border: 2px groove white;
+        width: 19vh;
+        margin-top: 55vw;
+        margin-left: 17vw;
+        
+    }
+
+
+}
+
+
+@media (max-width : 1450px){
+    .service{
+        margin-top: 10vw;
+        height: 95vw;
+    }
+
+    .boxsegment{
+        display: flex;
+        flex-direction: column;
+        margin-left: 23vw;
+    }
+
+
+
+}
+
+@media (max-width : 1200px ){
+    .service{
+        margin-top: 23vw;
+        
+    }
+}
+       */
